@@ -12,3 +12,7 @@ development:
   <<: *default
   database: workspace_development
   template: template0
+test:
+  <<: *default
+  database: workspace_test
+  template: template0
