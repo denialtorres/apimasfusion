@@ -1,5 +1,6 @@
 class PropertiesController < ApplicationController
     def index
-        render json: '', status: 200
+        properties = Property.all
+        render json: properties, status: 200
     end
 end
