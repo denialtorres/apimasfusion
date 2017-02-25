@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
- resources :properties
+ resources :properties, except: [:destroy, :update]
 end

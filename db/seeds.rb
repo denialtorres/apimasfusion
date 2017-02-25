@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Property.create!(type: 0, title: 'Departamento en Colonia Americana, Guadalajara', address: 'Marsella 23, colonia Americana. Guadalajara, Jalisco', zipcode: 44843, country: 'MX', notes: 'Sobre Avenida Juárez')
+Property.create!(type: 1, title: 'Departamento Centro', address: 'Calle Nueva 123. Guadalajara, Jalisco', zipcode: 45643, country: 'MX', notes: 'En una esquina')
