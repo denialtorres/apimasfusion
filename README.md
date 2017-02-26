@@ -19,3 +19,11 @@ To get started, just do the following:
 
 
 ## Test from heroku
+
+
+to GET all the files use
+
+method: GET, url: https://masfusion-api.herokuapp.com/properties
+
+and you will get
+![alt tag](http://i.imgur.com/NJXenL6.png)
