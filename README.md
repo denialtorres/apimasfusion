@@ -27,3 +27,10 @@ method: GET, url: https://masfusion-api.herokuapp.com/properties
 
 and you will get
 ![alt tag](http://i.imgur.com/NJXenL6.png)
+
+to GET an individual file
+
+method: GET, url: https://masfusion-api.herokuapp.com/properties/:id
+
+and you will get
+![alt tag](http://i.imgur.com/VLYlTAn.png)
