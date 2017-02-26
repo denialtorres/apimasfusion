@@ -6,15 +6,16 @@ To get started, just do the following:
     run `bundle install`
 
 ## Create Database
+    You need to have a Postgress database installed in your machine
+    
+    1. run `rake db:create`
+    2. run `rake db:migrate`
+    3. run `rake db:seed`
+## Test the Files
+    Just run `rake`
+    
+## Run Project
+    run `rails s`
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://api-masfusion-denialtorres.c9users.io/).
 
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+## Test from heroku
