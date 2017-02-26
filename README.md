@@ -38,6 +38,7 @@ and you will get
 to POST a new file
 
 method: POST, url: https://masfusion-api.herokuapp.com/properties/
+<br /><br />
 body: {"property" : {"type": "house",
                      "title": "casa por la guadalajara",
                      "address": "Calle Siempre,Alegre 213, por donde venden naranjas",
