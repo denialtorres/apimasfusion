@@ -48,3 +48,16 @@ body: {"property" : {"type": "house",
 
 and you will get 
 ![alt tag](http://i.imgur.com/BhY1KgN.png)
+
+you will get custom errors if the params were incorrect
+![alt tag](http://i.imgur.com/KnhFSQs.png)
+
+you can delete a record with the following method
+method: DELETE, url: https://masfusion-api.herokuapp.com/properties/:id
+and you will get 
+![alt tag](http://i.imgur.com/xETtJJJ.png)
+
+you can modify a record with the following method
+method: PATCH, url: https://masfusion-api.herokuapp.com/properties/:id
+and you will get 
+![alt tag](http://i.imgur.com/UnthLxr.png)
