@@ -20,6 +20,12 @@ class PropertiesController < ApplicationController
         end
     end
     
+    def destroy
+        property = Property.find(params[:id])
+        property.destroy!
+        render nothing:true, status: 204
+    end
+    
     def property_params
         params.require(:property).permit(:type, :title, :address, :zipcode, :country, :notes)
     end
